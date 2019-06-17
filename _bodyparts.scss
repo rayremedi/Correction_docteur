@@ -1,0 +1,22 @@
+@import "mixin";
+#humanBody{
+    padding-top: 2%;
+    transform: translate(-50%);
+    position: relative;
+    left: 50%;
+  
+  }
+  
+  #Epaule{
+    @include Ray ();
+    left: 47%;
+    top: 25%;
+    
+  }
+  
+  #Main{
+    @include Ray ();
+    left: 47%;
+    top: 45%;
+  }
+  

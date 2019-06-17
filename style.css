@@ -1,0 +1,45 @@
+#humanBody {
+  padding-top: 2%;
+  transform: translate(-50%);
+  position: relative;
+  left: 50%;
+}
+
+#Epaule {
+  position: absolute;
+  width: 3vw;
+  border-radius: 50%;
+  height: 3vw;
+  background-color: grey;
+  transform: translate(-50%);
+  left: 47%;
+  top: 25%;
+}
+
+#Main {
+  position: absolute;
+  width: 3vw;
+  border-radius: 50%;
+  height: 3vw;
+  background-color: grey;
+  transform: translate(-50%);
+  left: 47%;
+  top: 45%;
+}
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+#Texte {
+  background-color: white;
+  color: black;
+  left: 45em;
+  bottom: 15em;
+  position: relative;
+  width: 10vw;
+}
+
+/*# sourceMappingURL=style.css.map */
