@@ -1,6 +1,10 @@
+//Pour lier les fichiers scss au fichier css on écrit dans le terminal : sass --watch style.scss:style.css
+
+//Importe les fichiers _bodyparts et _mixin.
 @import "bodyparts";
 @import "mixin";
 
+// Fichier scss qui touche uniquement a la partie texte du fichier Html.
 * {
   padding: 0%;
   margin: 0%;
@@ -16,3 +20,7 @@
   width: 10vw;
 }
 
+h1{
+  padding-top: 2%;
+  text-align: center;
+}
